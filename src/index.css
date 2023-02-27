@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #16213e;
+  --main: #e94560;
+  --text: #e7f6f2;
+  --sub: #0f3460;
+}
+
+.active {
+  color: var(--main);
+}
+
+.active:hover {
+  color: var(--text);
+  transition: all;
+  animation-duration: 300ms;
+}
